@@ -1,7 +1,7 @@
 /*
  * File: 9-print_comb.c
  * Auth: Abdisa
- **/
+ */
 
 #include <stdio.h>
 
