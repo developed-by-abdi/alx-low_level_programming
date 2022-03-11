@@ -1,7 +1,7 @@
 /*
  * File: 8-print_base16.c
  * Auth: Abdisa
- * */
+ **/
 
 #include <stdio.h>
 
