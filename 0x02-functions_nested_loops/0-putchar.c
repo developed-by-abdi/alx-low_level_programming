@@ -7,8 +7,10 @@
 int main(void)
 {
 	char x[] = "_putchar";
+	
+	int k;
 
-	for (int k  = 0; k < 8; k++)
+	for (k = 0; k < 8; k++)
 	{
 		_putchar(x[k]);
 	}
