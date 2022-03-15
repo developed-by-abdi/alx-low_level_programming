@@ -1,20 +1,21 @@
-#include "stdio.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	 printf('_');
-	 printf('p');
-	 printf('u');
-	 printf('t');
-	 printf('c');
-	 printf('h');
-	 printf('a');
-	 printf('r');
-	 printf('\n');
+        char x[8] = "_putchar";
+        int i = 0;
 
-	return (0);
+        while (i <= 7)
+        {
+        _putchar(x[i]);
+        i++;
+        }
+        _putchar('\n');
+        return (0);
 }
