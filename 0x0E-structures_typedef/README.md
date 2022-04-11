@@ -1,0 +1,1 @@
+ALX structures typedef
